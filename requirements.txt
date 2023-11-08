@@ -2,5 +2,7 @@ pandas
 scikit-learn
 numpy
 ipykernel
+matplotlib
+seaborn
 
 -e .
