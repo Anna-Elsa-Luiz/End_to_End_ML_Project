@@ -31,8 +31,8 @@ class ModelEvaluation:
             model=load_object(model_path)
 
         
-
-            mlflow.set_registry_uri("https://dagshub.com/sunny.savita/fsdsmendtoend.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/Anna-Elsa-Luiz/End_to_End_ML_Project.mlflow") 
+            # This function is used to set the URI for the MLflow Model Registry. It allows you to specify the location where the Model Registry is hosted.
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
