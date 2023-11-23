@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/iNeuron_pvt_ltd/Machine_Learning/End_to_End_Project/mlruns/0/865db70d75e747cd96da0290ae3381ec/artifacts
+end_time: 1700720178975
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 865db70d75e747cd96da0290ae3381ec
+run_name: clumsy-moose-402
+run_uuid: 865db70d75e747cd96da0290ae3381ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700720174576
+status: 3
+tags: []
+user_id: hp

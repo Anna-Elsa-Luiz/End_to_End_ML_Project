@@ -7,7 +7,7 @@ import mlflow.sklearn
 import numpy as np
 import pickle
 from src.DimondPricePrediction.utils.utils import load_object
-import datetime
+
 
 
 
@@ -32,7 +32,7 @@ class ModelEvaluation:
 
         
 
-            #mlflow.set_registry_uri("https://dagshub.com/sunny.savita/fsdsmendtoend.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/sunny.savita/fsdsmendtoend.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
@@ -40,11 +40,11 @@ class ModelEvaluation:
 
  
             # Generate a unique identifier using UUID
-            unique_id = str(uuid.uuid4().hex)[:8]
-            custom_experiment_name = f"my_experiment_{unique_id}"
+              #unique_id = str(uuid.uuid4().hex)[:8]
+            #custom_experiment_name = f"my_experiment_{unique_id}"
 
             # Set the experiment name
-            mlflow.set_experiment(custom_experiment_name)
+              #mlflow.set_experiment(custom_experiment_name)
 
             with mlflow.start_run():
 
